@@ -8,7 +8,7 @@ filename = str(sys.argv[1])
 fileSplit = filename.split('.')
 TodaysDatePre = datetime.datetime.now()
 newdate = TodaysDatePre.strftime("%m%d%Y")
-NewFileName = fileSplit[0]+newdate+'.csv'
+NewFileName = fileSplit[0]+newdate
 input_path = str(sys.argv[2])
 final_output_path = 'C:\\NBCUniversal\\Final\\'
 
